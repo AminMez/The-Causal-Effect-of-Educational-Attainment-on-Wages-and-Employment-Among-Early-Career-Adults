@@ -23,7 +23,7 @@ This project estimates the **causal impact** of post-secondary education on wage
 ## 🧪 Methodology
 
 - **Data:** 2021 Canadian Census (cross-sectional)
-- **Instrumental Variable:** Binary indicator for “Moved for education”
+- **Instrumental Variable:** Binary indicator for individuals that “Moved for education”
 - **Estimation Strategy:**
   - **First Stage:** Predict education level using 2SLS with relevant covariates.
   - **Second Stage – Wages:**
